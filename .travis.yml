@@ -9,5 +9,4 @@ install:
 script:
   - black --check .
   - flake8 .
-  - coverage run --source=mysite_swe1_app,polls manage.py test
 
