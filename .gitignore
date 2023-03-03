@@ -3,3 +3,12 @@
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+# IDE specific files
+.idea/
+.vscode/
+*.pydevproject
+*.project
+*.settings
+*.tmproj
+*.iml
