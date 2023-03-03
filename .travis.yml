@@ -22,5 +22,6 @@ deploy:
   app: "swe1"
   env: "django-env"
   bucket_name: "elasticbeanstalk-us-west-2-198031710711"
+  skip_cleanup: true
   on:
     branch: main
